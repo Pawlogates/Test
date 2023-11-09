@@ -27,3 +27,32 @@ $(function(){
 
     });
 });
+
+$(function(){
+    $('#btn1b').on('click', function(){
+
+        $('#slider2').toggleClass('slider_active');
+        $('.elements_container').toggleClass('elements_container_hidden');
+        $('#closer2').toggleClass('closer_active');
+
+    });
+});
+
+$(function(){
+    $('#closer2').on('click', function(){
+
+        $('#slider2').toggleClass('slider_active');
+        $('.elements_container').toggleClass('elements_container_hidden');
+        $('#closer2').toggleClass('closer_active');
+
+    });
+});
+
+$(function(){
+    $('#btn1c').on('click', function(){
+
+        $('.textbox').toggleClass('textbox_appear');
+        $('#closer3').toggleClass('closer_active');
+
+    });
+});

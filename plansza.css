@@ -253,6 +253,7 @@ html {
 
 }
 
+
 .start_msg_text {
     color: black;
     font-size: 1.7vw;
@@ -379,6 +380,60 @@ html {
     -webkit-mask-image: url('images/mask1.png');
     -webkit-mask-position: center;
     -webkit-mask-size: 100% 100%;
+
+}
+
+#slider2 {
+    background-image: url(images/img1.png);
+}
+
+.textbox {
+    position: absolute;
+    margin: auto;
+    z-index: 15;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+
+    background-color: rgb(255, 255, 255);
+    width: fit-content;
+    height: fit-content;
+    border-radius: 0.7vw;
+    box-shadow: 0vw 0vw 0.7vw black;
+    transition: ease-in 1s;
+    animation: textbox_disappear 2s forwards;
+    opacity: 0;
+    padding: 1vw;
+    font-size: 1vw;
+
+}
+
+.textbox_appear {
+    opacity: 1;
+    animation: textbox_appear 2s forwards;
+
+
+}
+
+@keyframes textbox_appear {
+    0% {scale: 0; opacity: 0;}
+    70% {opacity: 1;}
+    100% {scale: 1; opacity: 1;}
+
+
+}
+
+@keyframes textbox_disappear {
+    0% {scale: 1; opacity: 1;}
+    50% {opacity: 0;}
+    100% {scale: 0; opacity: 0;}
+
+
+}
+
+#textbox1 {
+    left: 31.5%;
 }
 
 
