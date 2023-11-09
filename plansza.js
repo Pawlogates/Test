@@ -1,3 +1,31 @@
+/*Zmień poniższą wartość żeby włączyć tryb debug.
+(usunie/ukryje elementy przeszkadzające w testowaniu strony*/
+
+let debug_state
+
+debug_state = "tutaj cokolwiek poza tym tekstem włączy debug";
+
+if(debug_state == "tutaj cokolwiek poza tym tekstem włączy debug"){
+    void(0);
+    
+}
+
+else{
+    $(".start_msg").remove();
+    $(".bg_cover").remove();
+
+}
+
+/*teraz poniżej już normalne funkcje*/
+
+
+
+
+
+
+document.querySelector("#textbox1").style.display = "none"
+
+
 $(function(){
     $('#btn1a').on('click', function(){
 
@@ -52,7 +80,9 @@ $(function(){
     $('#btn1c').on('click', function(){
 
         $('.textbox').toggleClass('textbox_appear');
+        document.querySelector("#textbox1").style.display = "block"
         $('#closer3').toggleClass('closer_active');
 
     });
 });
+
