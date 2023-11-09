@@ -207,6 +207,7 @@ html {
     scale: 50%;
     opacity: 0;
     box-shadow: rgba(0, 0, 0, 0.667) 0.5vw 0.5vw 1vw;
+    z-index: 15;
 
 
 }
@@ -390,7 +391,7 @@ html {
 .textbox {
     position: absolute;
     margin: auto;
-    z-index: 15;
+    z-index: 4;
     left: 0;
     right: 0;
     bottom: 0;
@@ -411,7 +412,7 @@ html {
 
 .textbox_appear {
     opacity: 1;
-    animation: textbox_appear 2s forwards;
+    animation: textbox_appear 1s forwards;
 
 
 }
