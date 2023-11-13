@@ -194,7 +194,7 @@ html {
     width: 90%;
     height: 90%;
     position: absolute;
-    background-image: url(images/bg1.png);
+    background-image: none;
     background-size: 100%;
     top: 0;
     bottom: 0;
@@ -385,9 +385,6 @@ html {
 
 }
 
-#slider2 {
-    background-image: url(images/img1.png);
-}
 
 .textbox {
     position: absolute;
@@ -435,7 +432,40 @@ html {
 }
 
 #textbox1 {
-    left: 31.5%;
+    left: 44%;
+}
+
+.item_moveup {
+    position: absolute;
+    z-index: 10;
+
+    height: 10vw;
+    width: 15vw;
+    background-color: none;
+    background-size: contain;
+    overflow: visible;
+    top: 20vw;
+
+    -webkit-mask-image: url('images/mask1.png');
+    -webkit-mask-position: center;
+    -webkit-mask-size: 100% 100%;
+
+
+}
+
+#item_moveup1 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 7vw;
+    transition-duration: 2s;
+
+
+}
+
+.item_up {
+    top: -1vw !important;
+
 }
 
 
