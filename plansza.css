@@ -24,7 +24,7 @@ html {
 .elements_container {
     display: grid;
     background-color: rgb(255, 255, 255);
-    background-image: url(images/wp8.png);
+    background-image: url(images/bg_main.png);
     background-size: cover;
     outline: 0.4vw black solid;
     width: 100%;
@@ -102,8 +102,8 @@ html {
 }
 
 .button_a {
-    width: 90%;
-    height: 90%;
+    width: 60%;
+    height: 60%;
     background-color: rgb(203, 141, 65);
     display: block;
     border-radius: 100%;
@@ -162,10 +162,11 @@ html {
     z-index: 6;
 
     text-align: center;
-    font-size: 2.5vw;
+    font-size: 2vw;
     color: white;
     pointer-events: none;
     font-family: sans-serif;
+    line-height: 2vw;
 }
 
 .button_b_icon {
@@ -253,6 +254,10 @@ html {
     transition: ease-in 1s;
     animation: start_box_appear 2s;
 
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
 
 }
 
@@ -276,7 +281,14 @@ html {
     opacity: 1;
     right: -3%;
     top: -6%;
-    pointer-events: all;
+    pointer-events: none;
+    animation: block_click 0s 2.5s forwards;
+
+}
+
+@keyframes block_click {
+    100% {pointer-events: all;}
+
 }
 
 .bg_cover {
@@ -294,6 +306,8 @@ html {
 .hide_this {
     opacity: 0 !important;
     pointer-events: none !important;
+    transition-duration: 1s;
+
 }
 
 .start_box_hide {
