@@ -147,6 +147,16 @@ html {
     background-color: rgb(255, 187, 103);
 }
 
+.button_b:hover {
+    scale: 115%;
+    background-color: rgb(255, 187, 103);
+}
+
+.button_c:hover {
+    scale: 115%;
+    background-color: rgb(255, 187, 103);
+}
+
 .button_a_text {
     position: absolute;
     z-index: 6;
