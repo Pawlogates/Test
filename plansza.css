@@ -7,8 +7,8 @@ html {
 }
 
 .main_container {
-    width: 75vw;
-    aspect-ratio: 2 / 1;
+    width: 70vw;
+    aspect-ratio: 16 / 9;
 
     position: absolute;
     margin: auto;
@@ -33,7 +33,7 @@ html {
     height: 100%;
 
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 
     row-gap: 0;
     column-gap: 0;
@@ -500,16 +500,16 @@ html {
 
 
 
-@media screen and (max-aspect-ratio: 12 / 16) {
+@media screen and (max-aspect-ratio: 16 / 16) {
 
     html {
         background-color: black;
     }
 
     .main_container {
-        height: 100vw;
+        height: 60vw;
         width: auto;
-        transform: translateY(50vw);
+        transform: translateY(4vw);
         rotate: 90deg;
 
     }
@@ -521,3 +521,12 @@ html {
 
 }
 
+
+@media screen and (max-aspect-ratio: 10 / 16) {
+
+    .main_container {
+        height: 100vw;
+        transform: translateY(38vw);
+    }
+
+}
