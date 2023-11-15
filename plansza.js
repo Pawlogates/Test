@@ -123,6 +123,8 @@ $(function(){
     $('.rotate_all_btn').on('click', function(){
 
         $('.main_container').toggleClass('rotate_and_center');
+        $('.main_container').toggleClass('maximize');
+
         /*$('.element_box').toggleClass('rotate_and_center');*/
 
     });
