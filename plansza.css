@@ -529,7 +529,7 @@ html {
 }
 
 .add_inset_shadow {
-    box-shadow: 0vw 0vw 20vw rgb(0, 0, 0) inset;
+    box-shadow: 7vw 0vw 10vw rgb(0, 0, 0) inset, -7vw 0vw 10vw rgb(0, 0, 0) inset, 0vw 7vw 10vw rgb(0, 0, 0) inset, 0vw -7vw 10vw rgb(0, 0, 0) inset;
     
 
 }
