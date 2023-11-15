@@ -19,6 +19,8 @@ html {
 
     background-color: rgba(255, 255, 255, 0);
 
+    transition-duration: 2s;
+
 }
 
 .elements_container {
@@ -498,6 +500,36 @@ html {
     top: 0vw !important;
 
 }
+
+.rotate_all_btn {
+    width: 5vw;
+    height: 5vw;
+    z-index: 25;
+    background-color: red;
+    left: 1.5vw;
+    top: 1.5vw;
+    position: absolute;
+    border-radius: 100%;
+    outline: 0.5vw rgb(125, 13, 13) solid;
+
+}
+
+.rotate_and_center {
+    rotate: 90deg;
+    transition-duration: 2s;
+
+}
+
+.rotate_and_center_back {
+    rotate: -90deg;
+    position: absolute;
+    transition-duration: 2s;
+    filter: hue-rotate(70deg);
+    color: red;
+
+}
+
+
 
 
 

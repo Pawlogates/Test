@@ -119,3 +119,12 @@ $(function(){
     });
 });
 
+$(function(){
+    $('.rotate_all_btn').on('click', function(){
+
+        $('.main_container').toggleClass('rotate_and_center');
+        /*$('.element_box').toggleClass('rotate_and_center');*/
+
+    });
+});
+
