@@ -124,6 +124,8 @@ $(function(){
 
         $('.main_container').toggleClass('rotate_and_center');
         $('.main_container').toggleClass('maximize');
+        $('html').toggleClass('black_bg');
+        $('.elements_container').toggleClass('add_inset_shadow');
 
         /*$('.element_box').toggleClass('rotate_and_center');*/
 
