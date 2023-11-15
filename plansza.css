@@ -112,9 +112,8 @@ html {
     border-radius: 100%;
     outline: rgb(228, 228, 228) solid 0.3vw;
     z-index: 5;
-    box-shadow: rgba(0, 0, 0, 0.667) 0.3vw 0.3vw 0.6vw;
     transition: 0.2s 0s ease-out;
-    box-shadow: inset rgba(0, 0, 0, 0.192) 0.5vw 0.5vw 0.5vw;
+    box-shadow: inset rgba(0, 0, 0, 0.192) 0.5vw 0.5vw 0.5vw, rgb(0, 0, 0) 0vw 0vw 2vw;
     border: rgba(0, 0, 0, 0.247) 0.3vw solid;
 
 }
@@ -126,9 +125,8 @@ html {
     border-radius: 100%;
     outline: rgb(228, 228, 228) solid 0.3vw;
     z-index: 5;
-    box-shadow: rgba(0, 0, 0, 0.667) 0.3vw 0.3vw 0.6vw;
     transition: 0.2s 0s ease-out;
-    box-shadow: inset rgba(0, 0, 0, 0.192) 0.5vw 0.5vw 0.5vw;
+    box-shadow: inset rgba(0, 0, 0, 0.192) 0.5vw 0.5vw 0.5vw, rgb(0, 0, 0) 0vw 0vw 2vw;
 
 }
 
@@ -140,9 +138,8 @@ html {
     border-radius: 100%;
     outline: rgb(228, 228, 228) solid 0.3vw;
     z-index: 5;
-    box-shadow: rgba(0, 0, 0, 0.667) 0.3vw 0.3vw 0.6vw;
     transition: 0.2s 0s ease-out;
-    box-shadow: inset rgba(0, 0, 0, 0.192) 0.5vw 0.5vw 0.5vw;
+    box-shadow: inset rgba(0, 0, 0, 0.192) 0.5vw 0.5vw 0.5vw, rgb(0, 0, 0) 0vw 0vw 2vw;
 
 }
 
@@ -501,47 +498,26 @@ html {
 
 }
 
-.rotate_all_btn {
-    width: 5vw;
-    height: 5vw;
-    z-index: 25;
-    background-color: red;
-    left: 1.5vw;
-    top: 1.5vw;
-    position: absolute;
-    border-radius: 100%;
-    outline: 0.5vw rgb(125, 13, 13) solid;
+
+
+@media screen and (max-aspect-ratio: 9 / 16) {
+
+    html {
+        background-color: black;
+    }
+
+    .main_container {
+        height: 100vw;
+        width: auto;
+        transform: translateY(50vw);
+        rotate: 90deg;
+
+    }
+
+    .elements_container {
+            box-shadow: 7vw 0vw 10vw rgb(0, 0, 0) inset, -7vw 0vw 10vw rgb(0, 0, 0) inset, 0vw 7vw 10vw rgb(0, 0, 0) inset, 0vw -7vw 10vw rgb(0, 0, 0) inset;
+            
+        }
 
 }
-
-.rotate_and_center {
-    rotate: 90deg;
-
-}
-
-
-
-.maximize {
-    height: 100vw;
-    width: auto;
-    transform: translateY(50vw);
-
-}
-
-.add_inset_shadow {
-    box-shadow: 7vw 0vw 10vw rgb(0, 0, 0) inset, -7vw 0vw 10vw rgb(0, 0, 0) inset, 0vw 7vw 10vw rgb(0, 0, 0) inset, 0vw -7vw 10vw rgb(0, 0, 0) inset;
-    
-
-}
-
-.black_bg {
-    background-color: black;
-    transition-duration: 0.5s;
-
-
-}
-
-
-
-
 
