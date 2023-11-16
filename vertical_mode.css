@@ -507,6 +507,27 @@ html {
 
 @media screen and (max-aspect-ratio: 16 / 16) {
 
+    .start_msg {
+        rotate: -90deg;
+    }
+
+    .start_msg_text {
+
+        font-size: 3vw;
+ 
+    
+    }
+
+    #start_msg_closer {
+        width: 7vw;
+        height: 7vw;
+        top: -12%;
+        right: -8%;
+    }
+    
+    
+
+
     .textbox {
         rotate: -90deg;
         transform: translate(-17%, -120%);
@@ -640,6 +661,7 @@ html {
         transform: translateY(21vw);
 
     }
+
 
     .start_msg_text {
 
