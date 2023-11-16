@@ -413,7 +413,6 @@ html {
     -webkit-mask-position: center;
     -webkit-mask-size: 100% 100%;
 
-
 }
 
 
@@ -429,7 +428,7 @@ html {
     background-color: rgb(255, 255, 255);
     width: fit-content;
     height: fit-content;
-    border-radius: 0.7vw;
+    border-radius: 1vw;
     box-shadow: 0vw 0vw 0.7vw black;
     transition: ease-in 1s;
     animation: textbox_disappear 2s forwards;
@@ -508,6 +507,26 @@ html {
 
 @media screen and (max-aspect-ratio: 16 / 16) {
 
+    .textbox {
+        rotate: -90deg;
+        transform: translate(-17%, -120%);
+        font-size: 3vw;
+    }
+    
+    @keyframes updownloop {
+        0% {transform: translateX(-1vw);}
+        50% {transform: translateX(1vw);}
+        100% {transform: translateX(-1vw);}
+    }
+
+
+        
+
+    .button_c_icon, .button_b_icon, .button_a_text, .moveup1box, .closer {
+        rotate: -90deg;
+    }
+
+
     html {
         background-color: black;
     }
@@ -539,44 +558,40 @@ html {
     }
 
     @keyframes move_bg1 {
-        0% {top: 57%;}
-        100% {top: 75%;}
+        0% {top: 0%;}
+        100% {top: 100%;}
 
     }
 
     .m1fix {
-        transform: translate(15%, 0%) scale(25%) !important;
+        transform: translate(-15%, 0%) scale(25%) !important;
     }
 
     .m2fix {
-        transform: translate(30%, 0%) scale(25%) !important;
-    }
-
-    .m3fix {
         transform: translate(0%, 0%) scale(25%) !important;
     }
 
-    .moveup1 {
-        width: 12%;
-        height: 12%;
+    .m3fix {
+        transform: translate(-30%, 0%) scale(25%) !important;
     }
 
+
     #closer1{
-        left: 0;
+        left: 90%;
         right: 0;
-        top: 50%;
+        top: 0;
         bottom: 0;
         margin: auto;
-
+    
         width: 7%;
         height: auto;
         aspect-ratio: 1/1;
 }
     
 #closer2{
-    left: 0;
+    left: 90%;
     right: 0;
-    top: 50%;
+    top: 0;
     bottom: 0;
     margin: auto;
 
@@ -586,9 +601,9 @@ html {
 }
 
 #closer3{
-    left: 0;
+    left: 90%;
     right: 0;
-    top: 50%;
+    top: 0;
     bottom: 0;
     margin: auto;
 
