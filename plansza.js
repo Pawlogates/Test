@@ -13,6 +13,8 @@ if(debug_state == "tutaj cokolwiek poza tym tekstem włączy debug"){
 else{
     $(".start_msg").remove();
     $(".bg_cover").remove();
+    $(".main_overlay").remove();
+
 
 }
 
