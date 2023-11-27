@@ -511,7 +511,30 @@ html {
 
 
 
-@media screen and (max-aspect-ratio: 16 / 16) {
+/* MEDIA START */
+
+
+@media screen and (max-aspect-ratio: 24 / 16) {
+
+    .text_top {
+        margin: 0.4vw;
+        margin-top: 1.4vw;
+        margin-bottom: 1vw;
+        font-size: 5vw !important;
+        color: white;
+        text-align: center;
+    
+    
+    }
+    
+    .text_main {
+        margin: 0.4vw;
+        font-size: 2.5vw !important;
+        color: white;
+        text-align: left;
+    
+    
+    }
 
     .start_msg {
         rotate: -90deg;
@@ -546,8 +569,22 @@ html {
         100% {transform: translateX(-1vw);}
     }
 
+    .section_type1{
+        height: 35vw !important;
+        left: -40vw !important;
+        rotate: -90deg;
+        aspect-ratio: 2 / 1 !important;
 
-        
+    }
+
+    .section_type2{
+        height: 35vw !important;
+        rotate: -90deg;
+        left: 37vw !important;
+        aspect-ratio: 16 / 9 !important;
+
+    }
+
 
     .button_c_icon, .button_b_icon, .button_a_text, .moveup1box, .closer {
         rotate: -90deg;
@@ -604,7 +641,7 @@ html {
 
 
     #closer1{
-        left: 90%;
+        left: 70%;
         right: 0;
         top: 0;
         bottom: 0;
@@ -616,7 +653,7 @@ html {
 }
     
 #closer2{
-    left: 90%;
+    left: 70%;
     right: 0;
     top: 0;
     bottom: 0;
@@ -628,7 +665,7 @@ html {
 }
 
 #closer3{
-    left: 90%;
+    left: 70%;
     right: 0;
     top: 0;
     bottom: 0;
@@ -658,9 +695,87 @@ html {
     
     }
 
+
 }
 
-@media screen and (max-aspect-ratio: 12 / 16) {
+@media screen and (max-aspect-ratio: 16 / 16) and (min-aspect-ratio: 1 / 16) {
+    
+
+    #closer1{
+        left: 90%;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    
+        width: 7%;
+        height: auto;
+        aspect-ratio: 1/1;
+    }
+    
+    #closer2{
+    left: 90%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    
+    width: 7%;
+    height: auto;
+    aspect-ratio: 1/1;
+    }
+    
+    #closer3{
+    left: 90%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    
+    width: 7%;
+    height: auto;
+    aspect-ratio: 1/1;
+    }
+    
+    }
+
+@media screen and (max-aspect-ratio: 24 / 16) and (min-aspect-ratio: 20 / 16){
+
+        #closer1{
+        left: 40%;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    
+        width: 5%;
+        height: auto;
+        aspect-ratio: 1/1;
+}
+    
+#closer2{
+    left: 50%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+    width: 5%;
+    height: auto;
+    aspect-ratio: 1/1;
+}
+
+#closer3{
+    left: 50%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+    width: 5%;
+    height: auto;
+    aspect-ratio: 1/1;
+}
 
     .main_container {
         height: 80vw;
@@ -680,6 +795,19 @@ html {
 }
 
 @media screen and (max-aspect-ratio: 10 / 16) {
+
+    
+    .section_type1{
+        height: 50vw !important;
+        left: -50vw !important;
+
+    }
+
+    .section_type2{
+        height: 45vw !important;
+        left: 60vw !important;
+
+    }
 
     .main_container {
         height: 100vw;
@@ -709,7 +837,11 @@ html {
 }
 
 
-.main_overlay {
+/* MEDIA END */
+
+
+
+.main_overlay2 {
     width: 100%;
     height: 100%;
     background-image: radial-gradient(rgba(255, 0, 0, 0.185), rgba(141, 218, 0, 0.397));
@@ -727,12 +859,12 @@ html {
 
 }
 
-.main_overlay2 {
+.main_overlay {
     width: 100%;
     height: 100%;
     position: absolute;
 
-    background-color: rgba(255, 255, 255, 0.164);
+    background-color: rgba(255, 255, 255, 0.107);
     z-index: 1;
 }
 
@@ -744,7 +876,7 @@ html {
 }
 
 .section_type1 {
-    width: 33vw;
+    aspect-ratio: 4 / 3;
     height: 25vw;
     background-color: rgba(0, 189, 132, 0.884);
     border-radius: 0.7vw;
@@ -762,12 +894,12 @@ html {
 }
 
 .section_type2 {
-    width: 45vw;
+    aspect-ratio: 3 / 2;
     height: 30vw;
-    background-size: 100% 100%;
+    background-size: contain;
     top: 0;
     bottom: 0;
-    left: 12.5vw;
+    left: 12vw;
     right: 0;
     margin: auto;
     position: absolute;
