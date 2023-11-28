@@ -958,7 +958,7 @@ html {
 .text_top {
     margin: 0.4vw;
     margin-top: 1.4vw;
-    margin-bottom: 1vw;
+    margin-bottom: 1.4vw;
     font-size: 3vw !important;
     color: white;
     text-align: center;
@@ -967,8 +967,8 @@ html {
 }
 
 .text_main {
-    margin: 0.4vw;
-    font-size: 1.5vw !important;
+    margin: 0.6vw;
+    font-size: 1.4vw !important;
     color: white;
     text-align: left;
 
@@ -1126,8 +1126,12 @@ aspect-ratio: 1/1;
     .main_container {
         scale: 285%;
         transform: translateY(0vw);
+        
 
+    }
 
+    .slider {
+        scale: 60%;
     }
 
 }
@@ -1144,7 +1148,7 @@ aspect-ratio: 1/1;
 
 @media screen and (max-width: 900px) {
     .main_container {
-        scale: 145%;
+        scale: 345%;
         transform: translateY(0vw);
 
 
@@ -1207,7 +1211,7 @@ aspect-ratio: 1/1;
 /* MEDIA END */
 
 .element_box{
-    outline: red 1px solid;
+    outline: rgba(255, 0, 0, 0) 1px solid;
 }
 
 .inactive {
