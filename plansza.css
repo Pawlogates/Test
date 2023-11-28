@@ -514,7 +514,7 @@ html {
 /* MEDIA START */
 
 
-@media screen and (max-aspect-ratio: 24 / 16) {
+@media screen and (max-aspect-ratio: 16 / 16) {
 
     .text_top {
         margin: 0.4vw;
@@ -739,7 +739,7 @@ html {
     
     }
 
-@media screen and (max-aspect-ratio: 24 / 16) and (min-aspect-ratio: 20 / 16){
+@media screen and (max-aspect-ratio: 12 / 16) and (min-aspect-ratio: 20 / 16){
 
         #closer1{
         left: 40%;
