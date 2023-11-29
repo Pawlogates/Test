@@ -900,7 +900,7 @@ html {
 .section_type1 {
     aspect-ratio: 4 / 3;
     height: 25vw;
-    background-color: rgba(0, 189, 132, 0.884);
+    background-color: #4FCE69;
     border-radius: 0.7vw;
     top: 0;
     bottom: 0;
@@ -1015,18 +1015,17 @@ html {
 
 .section_type1{
     height: 20vw !important;
-    left: -20vw !important;
+    left: -38vw !important;
     rotate: -90deg;
     aspect-ratio: 2 / 1 !important;
 
 }
 
 .section_type2{
-    height: 25vw !important;
+    height: 24vw !important;
     rotate: -90deg;
-    left: 3vw !important;
+    left: 5vw !important;
     aspect-ratio: 16 / 9 !important;
-
 }
 
 
