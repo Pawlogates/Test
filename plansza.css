@@ -1,6 +1,6 @@
 html {
     background-color: rgb(238, 238, 238);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 2vw;
     overflow: hidden;
 
@@ -64,7 +64,7 @@ html {
     border-radius: 100%;
     outline: solid rgb(255, 53, 53) 0.4vw;
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 3vw;
     line-height: 4vw;
     font-weight: bolder;
@@ -171,7 +171,7 @@ html {
     font-size: 80%;
     color: white;
     pointer-events: none;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: 900;
     align-self: center;
     justify-self: center;
@@ -187,7 +187,7 @@ html {
     font-size: 80%;
     color: white;
     pointer-events: none;
-    font-family: sans-serif;
+    font-family: 'Oswald', sans-serif;
     background-image: url(images/icon1.png);
     background-size: contain;
     aspect-ratio: 1/1;
@@ -205,7 +205,7 @@ html {
     font-size: 80%;
     color: white;
     pointer-events: none;
-    font-family: sans-serif;
+    font-family: 'Oswald', sans-serif;
     background-image: url(images/icon2.png);
     background-size: contain;
     width: 65%;

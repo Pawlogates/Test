@@ -1,6 +1,6 @@
 html {
     background-color: rgb(238, 238, 238);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 2vw;
     overflow: hidden;
 
@@ -64,7 +64,7 @@ html {
     border-radius: 100%;
     outline: solid rgb(255, 53, 53) 0.4vw;
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 3vw;
     line-height: 4vw;
     font-weight: bolder;
@@ -175,7 +175,7 @@ html {
     font-size: 80%;
     color: white;
     pointer-events: none;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: 900;
     align-self: center;
     justify-self: center;
@@ -191,7 +191,7 @@ html {
     font-size: 80%;
     color: white;
     pointer-events: none;
-    font-family: sans-serif;
+    font-family: 'Oswald', sans-serif;
     background-image: url(images/icon1.png);
     background-size: contain;
     aspect-ratio: 1/1;
@@ -210,7 +210,7 @@ html {
     font-size: 80%;
     color: white;
     pointer-events: none;
-    font-family: sans-serif;
+    font-family: 'Oswald', sans-serif;
     background-size: contain;
     aspect-ratio: 1 / 1;
     height: 2.1vw;
@@ -227,7 +227,7 @@ html {
     font-size: 80%;
     color: white;
     pointer-events: none;
-    font-family: sans-serif;
+    font-family: 'Oswald', sans-serif;
     background-image: url(images/icon2.png);
     background-size: cover;
     background-color: red;
@@ -900,7 +900,7 @@ html {
 .section_type1 {
     aspect-ratio: 4 / 3;
     height: 25vw;
-    background-color: #4FCE69;
+    background-color: #4fce68eb;
     border-radius: 0.7vw;
     top: 0;
     bottom: 0;
@@ -946,7 +946,6 @@ html {
     color: white;
     text-align: center;
 
-
 }
 
 .text_main {
@@ -954,7 +953,7 @@ html {
     font-size: 1.2vw;
     color: white;
     text-align: left;
-
+    font-family: 'Work Sans', sans-serif;
 
 }
 
@@ -1015,7 +1014,7 @@ html {
 
 .section_type1{
     height: 20vw !important;
-    left: -38vw !important;
+    left: -20vw !important;
     rotate: -90deg;
     aspect-ratio: 2 / 1 !important;
 
