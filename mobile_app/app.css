@@ -25,8 +25,13 @@ html {
 
 .elements_container {
     display: grid;
-    background-color: rgb(185, 57, 57);
-    background-image: url(images/Projekt\ bez\ nazwy\ \(7\).png);
+
+    background: rgb(166,16,105);
+    background: -moz-linear-gradient(0deg, rgba(166,16,105,1) 22%, rgba(6,18,157,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(166,16,105,1) 22%, rgba(6,18,157,1) 100%);
+    background: linear-gradient(0deg, rgba(166,16,105,1) 22%, rgba(6,18,157,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a61069",endColorstr="#06129d",GradientType=1);
+
     background-size: cover;
     outline: 0.4vw black solid;
     width: 100%;
@@ -43,6 +48,67 @@ html {
     box-shadow: rgba(0, 0, 0, 0.667) 0.5vw 0.5vw 1vw;
 
 
+}
+
+.header_top {
+    background-color: rgb(226, 46, 70);
+    width: 100%;
+    height: 25%;
+    position: absolute;
+    box-shadow: black 0vw 0vw 1vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
+
+.logo {
+    background-image: url(../images/cropped-kostka_Grywit_gradient_white-270x270.png);
+    background-color: yellow;
+    border-radius: 100%;
+    background-size: cover;
+    aspect-ratio: 1/1;
+    width: 80%;
+    margin: auto;
+}
+
+.header_text {
+    height: 1fr;
+    width: 1fr;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.header_text_inside {
+    margin: 0;
+    line-height: 0;
+    font-size: 0.8vw;
+    vertical-align: middle;
+    align-self: flex-end;
+    text-align: center;
+
+
+}
+
+
+.barL {
+    outline: rgb(0, 0, 0) solid 1px;
+    border-radius: 10px;
+    height: 0.7vw;
+    width: 3.6vw;
+    background-color: rgb(155, 62, 255);
+    margin: auto;
+}
+
+.barR {
+    outline: rgb(0, 0, 0) solid 1px;
+    border-radius: 10px;
+    height: 0.7vw;
+    width: 3.6vw;
+    background-color: rgb(74, 74, 255);
+    margin: auto;
 }
 
 .elements_container_hidden {
@@ -621,7 +687,7 @@ html {
     }
 
     .elements_container {
-        box-shadow: 7vw 0vw 10vw rgb(0, 0, 0) inset, -7vw 0vw 10vw rgb(0, 0, 0) inset, 0vw 7vw 10vw rgb(0, 0, 0) inset, 0vw -7vw 10vw rgb(0, 0, 0) inset;
+        box-shadow: 7vw 0vw 10vw rgba(0, 0, 0, 0.393) inset, -7vw 0vw 10vw rgb(0, 0, 0) inset, 0vw 7vw 10vw rgb(0, 0, 0) inset, 0vw -7vw 10vw rgb(0, 0, 0) inset;
             
     }
     
@@ -864,7 +930,7 @@ html {
     background-image: radial-gradient(rgba(255, 0, 0, 0.185), rgba(141, 218, 0, 0.397));
     position: absolute;
     animation: gradient_scroll 90s infinite;
-    box-shadow: inset 0 0 5vw black;
+    box-shadow: inset 0 0 5vw rgba(0, 0, 0, 0.329);
     z-index: 0;
 
 }
@@ -1041,7 +1107,7 @@ html {
 }
 
 .elements_container {
-    box-shadow: 1vw 0vw 2vw rgb(0, 0, 0) inset, -1vw 0vw 2vw rgb(0, 0, 0) inset, 0vw 1vw 2vw rgb(0, 0, 0) inset, 0vw -1vw 2vw rgb(0, 0, 0) inset;
+    box-shadow: 1vw 0vw 2vw rgba(0, 0, 0, 0.183) inset, -1vw 0vw 2vw rgba(0, 0, 0, 0.187) inset, 0vw 1vw 2vw rgba(0, 0, 0, 0.183) inset, 0vw -1vw 2vw rgba(0, 0, 0, 0.174) inset;
         
 }
 
