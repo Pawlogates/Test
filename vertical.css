@@ -707,7 +707,6 @@ html {
     .main_container {
         height: 70vw;
         transform: translateY(14vw);
-
     }
 
     .start_msg_text {
@@ -1127,7 +1126,7 @@ aspect-ratio: 1/1;
 
 @media screen and (min-width: 0px) {
     .main_container {
-        scale: 285%;
+        scale: 100%;
         transform: translateY(0vw);
         
 
@@ -1137,6 +1136,7 @@ aspect-ratio: 1/1;
         scale: 60%;
     }
 
+  
 }
 
 @media screen and (max-width: 1000px) {
@@ -1174,6 +1174,11 @@ aspect-ratio: 1/1;
         scale: 325%;
         transform: translateY(0vw);
 
+
+    }
+
+    .closer {
+        left: 20vw !important;
 
     }
 

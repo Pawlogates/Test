@@ -144,6 +144,7 @@ html {
     height: 30%;
     background-color: white;
     border-radius: 5vw;
+    align-self: flex-end;
 }
 
 
@@ -193,7 +194,7 @@ html {
 .element_box {
     display: flex;
     background-color: none;
-    outline: rgb(255, 217, 0) 1px solid !important;
+    outline: none;
 
     justify-content: center;
     align-items: center;
@@ -216,6 +217,31 @@ html {
     position: absolute;
 
 }
+
+.app_btn {
+
+    width: 21.33%;
+    height: 12%;
+    background-color: none;
+    display: block;
+    border-radius: 100%;
+    outline:none;
+    z-index: 5;
+    transition: 0.2s 0s ease-out;
+    border: none;
+    position: absolute;
+    transition-duration: 1s;
+
+}
+
+
+.app_btn:hover + .button_a_icon {
+    scale: 115%;
+
+}
+
+
+
 
 .button_b {
     width: 75%;
@@ -252,6 +278,17 @@ html {
     filter: hue-rotate(900deg) !important;
 
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 .button_b:hover {
@@ -314,11 +351,14 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     opacity: 1;
+    scale: 100%;
+    transition-duration: 0.3s;
 }
 
 .button_c_icon {
     position: absolute;
     z-index: 6;
+    
 
     text-align: center;
     font-size: 80%;
@@ -327,9 +367,8 @@ html {
     font-family: 'Oswald', sans-serif;
     background-image: url(images/icon2.png);
     background-size: cover;
-    background-color: red;
-    width: 65%;
-    height: 65%;
+    width: 21.33%;
+    height: 12%;
     opacity: 0.75;
 
 }
