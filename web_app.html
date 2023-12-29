@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <link rel="preconnect" href="//fonts.googleapis.com">
+    <link rel="preconnect" href="//fonts.gstatic.com" crossorigin>
+
+    <link href="//fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Work+Sans&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plansza</title>
+    <link rel="icon" type="image/x-icon" href="icon_name.png">
+
+    <meta name="keywords" content="thing1, thing2"/>
+    <meta name="description" content="description of the website">
+
+
+    <!--css file reference-->
+
+    <link rel="stylesheet" href="web_app.css">
+    
+</head>
+
+<body>
+
+    <a href="vertical.html" style="font-size: 1vw; color: black; position: absolute; z-index: 50;">???</a>
+    <a href="mobile_app/app.html" style="font-size: 1vw; color: black; position: absolute; z-index: 50; top: 3vw;">???!</a>
+
+    <a href="https://pawlogates.itch.io/combonaut" style="font-size: 3vw; color: rgb(255, 0, 0); position: absolute; top: 5vw; z-index: 50;">coś</a>
+    
+
+    <div class="main_container">
+
+        <div class="elements_container">
+
+            <div class="main_overlay"></div>
+            <!--<div class="main_overlay2"></div>-->
+
+            <div class="element_box" style="grid-column: 6; grid-row: 2;">
+                <div class="button_a" id="btn1a"></div>
+                <div class="button_a_text">1</div>
+
+                    
+            </div>
+
+            <div class="element_box" style="grid-column: 4; grid-row: 3;">
+                <div class="button_a" id="btn2a"></div>
+                <h1 class="button_a_text">2</h1>
+
+                    
+            </div>
+
+            <div class="element_box" style="grid-column: 2; grid-row: 4;">
+                <div class="button_a" id="btn3a"></div>
+                <h1 class="button_a_text">3</h1>
+
+                    
+            </div>
+
+
+
+            <div class="element_box" style="grid-column: 9; grid-row: 3;">
+                <div class="button_b" id="btn1b"></div>
+                <div class="button_b_icon"></div>
+
+                <div class="item_moveup">
+                    <img src="images/item1_moveup.png" id="item_moveup1">
+
+                </div>
+                    
+            </div>
+            
+
+            <div class="element_box" style="grid-column: 12; grid-row: 6; transform: translateY(0vw); animation: 5s updownloop ease-in-out infinite;">
+                <div class="button_c" id="btn1c"></div>
+                <div class="button_c_icon"></div>
+                
+                
+            </div>
+
+            <div class="textbox" id="textbox1">
+                nienawidze git'a Tutaj tekst jakis bedzie<br>
+                Tutaj tekst jakis bedzie tu tez w sumie<br>
+                i tu tez
+            </div>
+            
+
+            <!--
+
+            <div class="element_box" style="grid-column: 6 / span 3; grid-row: 4 / span 4;">
+
+                <div class="moveup1box">
+                <div class="moveup1">
+                    <div class="upbg1a"></div>
+                    <div class="upbg1b"></div>
+                    <div class="upbg1c"></div>
+                    <div class="upbg1d"></div>
+
+
+
+
+                </div>
+                </div>
+
+
+
+            </div>
+
+            -->
+
+            <div class="element_box" style="grid-column: 14 / span 2; grid-row: 6 / span 2;">
+
+                <div class="moveup1box">
+                <div class="moveup1 m1fix" style="transform: translate(-3vw, 0vw) scale(25%); animation-duration: 2s; animation-delay: 0.05s; animation-timing-function: cubic-bezier(.69,-1.07,.4,2.05);">
+                    <div class="upbg1a"></div>
+                    <div class="upbg1b"></div>
+                    <div class="upbg1c"></div>
+                    <div class="upbg1d"></div>
+                </div>
+
+                <div class="moveup1 m2fix" style="transform: translate(-5vw, 0vw) scale(25%); animation-duration: 2s; animation-delay: 0s; animation-timing-function: cubic-bezier(.69,-1.07,.4,2.05);">
+                    <div class="upbg1a"></div>
+                    <div class="upbg1b"></div>
+                    <div class="upbg1c"></div>
+                    <div class="upbg1d"></div>
+                </div>
+
+                <div class="moveup1 m3fix" style="transform: translate(-1vw, 0vw) scale(25%); animation-duration: 2s; animation-delay: 0.1s; animation-timing-function: cubic-bezier(.69,-1.07,.4,2.05);">
+                    <div class="upbg1a"></div>
+                    <div class="upbg1b"></div>
+                    <div class="upbg1c"></div>
+                    <div class="upbg1d"></div>
+                </div>
+                </div>
+
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+        <div class="slider" id="slider1">
+
+            <div class="section_type1">
+                <div class="inside_section">
+                    <h1 class="text_top">NAGŁÓWEK</h1>
+                    <p class="text_main">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
+
+                </div>
+            </div>
+
+            <div class="section_type2" style="background-image: url(images/wp8.png);">
+                <div class="inside_section">
+
+                </div>
+            </div>
+
+        </div>
+        
+        <div class="slider" id="slider2" style="background-image: url(images/wp6.png);">
+
+            <div class="section_type1">
+                <div class="inside_section">
+                    <h1 class="text_top">NAGŁÓWEK</h1>
+                    <p class="text_main">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
+
+                </div>
+            </div>
+
+            <div class="section_type2" style="background-image: url(images/wp5.png);">
+                <div class="inside_section">
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="slider" id="slider3" style="background-image: url(images/wp9.png);">
+
+            <div class="section_type1">
+                <div class="inside_section">
+                    <h1 class="text_top">NAGŁÓWEK</h1>
+                    <p class="text_main">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
+
+                </div>
+            </div>
+
+            <div class="section_type2" style="background-image: url(images/wp4.png);">
+                <div class="inside_section">
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="closer" id="closer1"></div>
+        <div class="closer" id="closer2"></div>
+        <div class="closer" id="closer3"></div>
+
+
+
+
+
+
+        <div class="start_msg">
+            <p class="start_msg_text">Tutaj tekst jakis bedzie</p>
+            <div class="closer" id="start_msg_closer"></div>
+        </div>
+
+        <div class="bg_cover"></div>
+
+
+
+    </div>
+
+
+
+    <script src="web_app.js"></script>
+    
+</body>
+</html>
