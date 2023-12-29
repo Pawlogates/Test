@@ -3,7 +3,7 @@
 
 let debug_state
 
-debug_state = "tutaj cokolwiek poza tym tekstem włączy debug";
+debug_state = "ooootutaj cokolwiek poza tym tekstem włączy debug";
 
 if(debug_state == "tutaj cokolwiek poza tym tekstem włączy debug"){
     void(0);
