@@ -13,7 +13,7 @@ if(debug_state == "tutaj cokolwiek poza tym tekstem włączy debug"){
 else{
     $(".start_msg").remove();
     $(".bg_cover").remove();
-    $(".main_overlay").remove();
+    /*$(".main_overlay").remove();*/
 
 
 }
@@ -28,61 +28,61 @@ document.querySelector("#textbox1").style.display = "none"
 
 
 $(function(){
-    $('#btn1a').on('click', function(){
+    $('#btn_BADGES').on('click', function(){
 
-        $('#slider1').toggleClass('slider_active');
+        $('#slider_BADGES').toggleClass('slider_active');
         $('.elements_container').toggleClass('elements_container_hidden');
-        $('#closer1').toggleClass('closer_active');
+        $('#closer_BADGES').toggleClass('closer_active');
 
     });
 });
 
 $(function(){
-    $('#closer1').on('click', function(){
+    $('#closer_BADGES').on('click', function(){
 
-        $('#slider1').toggleClass('slider_active');
+        $('#slider_BADGES').toggleClass('slider_active');
         $('.elements_container').toggleClass('elements_container_hidden');
-        $('#closer1').toggleClass('closer_active');
+        $('#closer_BADGES').toggleClass('closer_active');
 
     });
 });
 
 $(function(){
-    $('#btn2a').on('click', function(){
+    $('#btn_TASKS').on('click', function(){
 
-        $('#slider2').toggleClass('slider_active');
+        $('#slider_TASKS').toggleClass('slider_active');
         $('.elements_container').toggleClass('elements_container_hidden');
-        $('#closer2').toggleClass('closer_active');
+        $('#closer_TASKS').toggleClass('closer_active');
 
     });
 });
 
 $(function(){
-    $('#closer2').on('click', function(){
+    $('#closer_TASKS').on('click', function(){
 
-        $('#slider2').toggleClass('slider_active');
+        $('#slider_TASKS').toggleClass('slider_active');
         $('.elements_container').toggleClass('elements_container_hidden');
-        $('#closer2').toggleClass('closer_active');
+        $('#closer_TASKS').toggleClass('closer_active');
 
     });
 });
 
 $(function(){
-    $('#btn3a').on('click', function(){
+    $('#btn_WORKERS').on('click', function(){
 
-        $('#slider3').toggleClass('slider_active');
+        $('#slider_WORKERS').toggleClass('slider_active');
         $('.elements_container').toggleClass('elements_container_hidden');
-        $('#closer3').toggleClass('closer_active');
+        $('#closer_WORKERS').toggleClass('closer_active');
 
     });
 });
 
 $(function(){
-    $('#closer3').on('click', function(){
+    $('#closer_WORKERS').on('click', function(){
 
-        $('#slider3').toggleClass('slider_active');
+        $('#slider_WORKERS').toggleClass('slider_active');
         $('.elements_container').toggleClass('elements_container_hidden');
-        $('#closer3').toggleClass('closer_active');
+        $('#closer_WORKERS').toggleClass('closer_active');
 
     });
 });
@@ -122,3 +122,35 @@ $(function(){
 });
 
 
+
+
+
+
+
+
+
+/* BADGES */
+
+$('.badge_description').hover(function() {
+    $('.badge_description').toggleClass('badges_moveLeft');
+}, function() {
+    $('.badge_description').toggleClass('badges_moveLeft');
+});
+
+
+
+
+/* manage badge desc */
+
+let badge_description = "Kliknij odznake zeby zobaczyc opis itp (na razie tylko opis :c)"
+
+
+function changeBadgeDescription(badge_description) {
+    document.getElementById("badge_description_txt").innerText = badge_description;
+    
+}
+
+
+let b1d = "opis1: w pliku .js sa zmienne co maja opis kazdej odznaki"
+let b2d = "a po kliknieciu odznaki zmienia sie ten tutaj tekst na wartosc ustalona w pliku .js"
+let b3d = "tak"
