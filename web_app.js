@@ -154,3 +154,18 @@ function changeBadgeDescription(badge_description) {
 let b1d = "opis1: w pliku .js sa zmienne co maja opis kazdej odznaki"
 let b2d = "a po kliknieciu odznaki zmienia sie ten tutaj tekst na wartosc ustalona w pliku .js"
 let b3d = "tak"
+
+
+
+/* TASKS */
+
+
+
+$('.task_list').hover(function() {
+    $('.task_list').toggleClass('task_listHOVER');  /*ON ENTER DIV*/
+}, function() {
+    setTimeout(function(){                          
+        $('.task_list').toggleClass('task_listHOVER');  /*ON LEAVE DIV*/
+        }, 1500)
+                    
+});

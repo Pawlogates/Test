@@ -1177,6 +1177,62 @@ html {
 
 
 
+.task_list{
+
+    width: 24vw;
+    height: 36vw;
+    left: 0;
+    scale: 100%;
+
+    transition-duration: 1s;
+    transition-delay: 1s;
+    animation: taskList_hideALT 4s 0s ease-in forwards;
+
+
+}
+
+
+
+.task_listHOVER{
+
+    width: 24vw;
+    height: 36vw;
+    scale: 0%;
+    left: 0;
+    transition-duration: 5s;
+    top: -150vw;
+
+    transition-delay: 0s;
+    animation: taskList_hide 0.5s 0s ease-in forwards;
+    pointer-events: none;
+
+}
+
+
+@keyframes taskList_hide {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+
+
+}
+
+@keyframes taskList_hideALT {
+    0% {opacity: 0; pointer-events: none;}
+    90% {opacity: 0; pointer-events: none;}
+    100% {opacity: 1; pointer-events: all;}
+
+
+}
+
+
+
+.task_list2{
+
+    width: 24vw;
+    height: 36vw;
+    left: 0;
+
+}
 
 
 
