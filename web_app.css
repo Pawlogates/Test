@@ -1228,12 +1228,54 @@ html {
 
 .task_list2{
 
-    width: 24vw;
-    height: 36vw;
+    width: 32vw;
+    height: 64vw;
     left: 0;
+    display: block;
+    
+
 
 }
 
+.inside_section_task_list2 {
+
+    width: 36vw;
+    height: 32vw;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0vw;
+    right: 0;
+    position: absolute;
+    overflow-x: scroll;
+
+    mask-image: url(images/mask_scroll.png);
+    background-position: center;
+    mask-size: 131%;
+    mask-position: center;
+}
+
+
+
+
+.text_task_list {
+    color: black;
+    font-size: 1.5vw;
+    text-align: left;
+}
+
+.text_top_task_list {
+    color: black;
+    text-align: left;
+    font-size: 1.8vw;
+    margin-top: 3vw;
+
+
+}
+
+.TASKslider{
+    background-color: rgb(226, 43, 64) !important;
+}
 
 
 
