@@ -888,6 +888,7 @@ html {
     position: absolute;
     z-index: 2;
     box-shadow: 0 0 2vw rgba(0, 0, 0, 0.4);
+    background-size: cover;
 
 
 
@@ -896,7 +897,7 @@ html {
 .section_type2 {
     aspect-ratio: 3 / 2;
     height: 30vw;
-    background-size: contain;
+    background-size: cover;
     top: 0;
     bottom: 0;
     left: 12vw;
