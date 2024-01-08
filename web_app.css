@@ -188,6 +188,9 @@ html {
     opacity: 100%;
     transition: 0.5s 1s ease-out;
     pointer-events: all;
+    margin: auto;
+    right: 4.7vw !important;
+    top: 3vw !important
 
 
 }
@@ -1279,6 +1282,19 @@ html {
 
 
 
+.mouse_icon {
+    width: 5vw;
+    height: 10vw;
+    background-image: url(images/ikony/mouseIcon.png);
+    background-size: 100%;
+    position: absolute;
+    right: 17vw;
+    bottom: 30vw;
+    background-repeat: no-repeat;
+    opacity: 0.1;
+    rotate: 90deg;
+
+}
 
 
 
