@@ -1324,6 +1324,54 @@ html {
 
 
 
+.workers_list {
+    aspect-ratio: 2/1;
+    left: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+
+}
+
+.workers_listItem{
+    background-color: rgba(98, 255, 177, 0.692);
+    outline: red 3px ridge;
+    display: grid;
+    grid-template-columns: 0.33fr 2fr 1fr 0.5fr;
+    grid-template-rows: 1fr
+
+}
+
+.workers_profilePicture {
+    background-image: url(images/wp5.png);
+    background-size: 100%;
+    outline: red 3px ridge;
+
+}
+
+.workers_name {
+    outline: red 3px ridge;
+    color: white;
+    text-shadow: black 0.2vw 0.2vw 1vw;
+    text-align: center;
+}
+
+.workers_status {
+    text-align: center;
+
+}
+
+.send_message {
+    background-image: url(images/ikony/email-12-256.png);
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    outline: red 3px solid;
+    text-align: center;
+
+
+}
 
 
 
@@ -1332,13 +1380,21 @@ html {
 
 
 
+:root {
+    --img1: url(images/ikony/email-12-256.png);
+    --img2: url(images/best_rating.png);
+    --img3: url(images/button1websiteremake.png);
+}
 
 
+.workers_profilePicture1 {
+    background-image: var(--img1);
+}
 
+.workers_profilePicture2 {
+    background-image: var(--img2);
+}
 
-
-
-
-
-
-
+.workers_profilePicture3 {
+    background-image: var(--img3);
+}

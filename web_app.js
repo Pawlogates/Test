@@ -1,3 +1,9 @@
+var r = document.querySelector(':root');
+
+
+
+
+
 /*Zmień poniższą wartość żeby włączyć tryb debug.
 (usunie/ukryje elementy przeszkadzające w testowaniu strony*/
 
@@ -171,3 +177,31 @@ $('.task_list').hover(function() {
         }, 1500)
                     
 });
+
+
+
+
+
+/* HANDLE WORKERS LIST */
+
+let worker_name1 = "Joanna Woźniak"
+let worker_name2 = "Andrzej Gawin"
+let worker_name3 = "Patrycja Bos"
+
+let worker_status1 = "Obecny/a"
+let worker_status2 = "Nieobecny/a"
+let worker_status3 = "Obecny/a"
+
+
+document.getElementById("name1").innerText = worker_name1;
+document.getElementById("name2").innerText = worker_name2;
+document.getElementById("name3").innerText = worker_name3;
+
+document.getElementById("status1").innerText = worker_status1;
+document.getElementById("status2").innerText = worker_status2;
+document.getElementById("status3").innerText = worker_status3;
+
+
+$('#workers_profilePicture1').toggleClass('workers_profilePicture1');
+$('#workers_profilePicture2').toggleClass('workers_profilePicture2');
+$('#workers_profilePicture3').toggleClass('workers_profilePicture3');
